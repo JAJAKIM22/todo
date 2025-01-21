@@ -66,7 +66,7 @@ const getAllTodos = async (req, res) => {
   const updateTodo = async (req, res) => {
     try {
       const todoId = req.params.jobId;
-      const todo = await Todos.findOneAndUpdate({ _id: todoId}, req.body, {
+      const todo = await Todos.findOneAndUpdate({ todoId}, req.body, {
         new: true,
       });
       if (!todo) {
@@ -88,7 +88,7 @@ const getAllTodos = async (req, res) => {
     try {
       const todoId = req.params.jobId;
      
-      const todo = await Todos.findOneAndDelete({ _id: todoId });
+      const todo = await Todos.findOneAndDelete({ todoId });
   
       if (!todo) {
         return res.status(404).send({ message: "Todo not found" });
