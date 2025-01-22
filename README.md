@@ -37,6 +37,7 @@ The API will run on `http://localhost:3000`.
  I have used Swagger UI to help  interact with the API endpoints and test them. You can access the Swagger documentation at:
 ```
 http://localhost:3000/todo/api
+https://todo-rtsk.onrender.com/todo/api
 ```
 
 ---
