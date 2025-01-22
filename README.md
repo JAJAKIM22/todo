@@ -118,6 +118,6 @@ http://localhost:3000/todo/api
 
 ---
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
+## Deployment
+I have deployed the node js api on render , this is the live link `https://todo-rtsk.onrender.com/todo/todos`.
 
